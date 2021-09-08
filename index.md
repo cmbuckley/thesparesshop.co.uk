@@ -1,6 +1,11 @@
-## The Spares Shop
+---
+layout: page
+---
+
+Welcome to {{ site.name }}!
 
 Please use our marketplace stores for all your spares needs:
 
-* Amazon: [T S S](https://www.amazon.co.uk/s?i=merchant-items&me=AN1P1GLLI6W3J)
-* eBay: [TSS Supplies](https://stores.ebay.co.uk/tsssupplies)
+* [T S S on Amazon](https://www.amazon.co.uk/s?i=merchant-items&me=AN1P1GLLI6W3J)
+* [TSS Supplies on eBay](https://stores.ebay.co.uk/tsssupplies)
+{: .stores}

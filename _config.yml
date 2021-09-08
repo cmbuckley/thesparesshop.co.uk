@@ -1,3 +1,16 @@
-theme: jekyll-theme-cayman
+name: The Spares Shop
 title: The Spares Shop
 description: Keeping your appliances going
+host: 0.0.0.0
+
+repository: cmbuckley/thesparesshop.co.uk
+url: https://thesparesshop.starsquare.co.uk
+baseurl: ""
+
+exclude:
+  - CNAME
+  - Gemfile
+  - vendor
+
+sass:
+  style: compressed

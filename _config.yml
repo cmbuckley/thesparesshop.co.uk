@@ -1,6 +1,6 @@
 name: The Spares Shop
 title: The Spares Shop
-description: Keeping your appliances going
+description: Keeping your appliance going
 host: 0.0.0.0
 
 repository: cmbuckley/thesparesshop.co.uk
@@ -14,3 +14,8 @@ exclude:
 
 sass:
   style: compressed
+
+social:
+  facebook: The-Spares-Shop-547368338647016
+  twitter: thesparesshop
+  email: sales@thesparesshop.co.uk

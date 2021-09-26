@@ -1,11 +1,12 @@
 ---
 layout: page
+pageclip: true
 title: Contact Us
 ---
 
 <div class="row justify-content-center">
   <div class="col-md-8">
-    <form action="https://send.pageclip.co/ecGrlCsgXPrmbKtxRRddcYit4ApVowFq/contact-form" method="post" onsubmit="toast(1)">
+    <form action="https://send.pageclip.co/{{ site.form.key }}" class="pageclip-form" method="post">
         <label for="name">Your Name</label>
         <input type="name" id="name" name="name" required autocomplete="name"><br />
 
@@ -15,7 +16,11 @@ title: Contact Us
         <label for="message">Message</label>
         <textarea name="message" id="message" required cols="30" rows="5"></textarea><br />
 
-        <input type="submit" value="Send">
+        <button type="submit" class="pageclip-form__submit">
+          <span>Send</span>
+        </button>
     </form>
   </div>
 </div>
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>

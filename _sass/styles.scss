@@ -217,4 +217,11 @@ form {
     input, textarea {
         width: 100%;
     }
+
+    .pageclip-form__submit {
+        background-color: $tss-blue;
+        padding: 10px;
+        border: none;
+        color: white;
+    }
 }
